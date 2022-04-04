@@ -1,0 +1,59 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=7,8,edge" />
+  
+    <title>Cadastro</title>
+    
+  </head>
+  <body>
+    
+    <form action="acess.html" method="post" accept-charset="utf-8">
+      <table border="0">
+        <tr>
+          <td><label for="nome">Nome:</label></td>
+          <td><input type="text" name="text" id="text" placeholder="Nome" required="true" /></td>
+        </tr>
+        <tr>
+          <td><label for="sobrenome">Sobrenome:</label></td>
+          <td><input type="text" name="sobre" id="sobre" placeholder="Sobrenome" required="true" /></td>
+        </tr>
+        <tr>
+          <td><label for="endereco">Endereço:</label></td>
+          <td><textarea name="texte" id=texte rows="8" cols="40" required="true"></textarea></td>
+        </tr>
+        <tr>
+          <td><label for="diciplinas">Diciplinas:</label></td>
+          <td><input type="checkbox" name="programacao" id="programacao" />Programação<br />
+          <input type="checkbox" name="logica" id="logica" />Lógica<br />
+          <input type="checkbox" name="algoritimo" id="algoritimo" />Algoritimo<br />
+          <input type="checkbox" name="banco" id="banco" />Banco de Dados<br />
+          <input type="checkbox" name="mobile" id="mobile" />Mobile</td>
+        </tr>
+        <tr>
+          <td><label for="genero">Genero:</label></td>
+            <td><input type="radio" name="masc" id="masc" />Masculino
+          <input type="radio" name="fem" id="fem" />Feminino
+          <input type="radio" name="na" id="na" />Não dizer</td>
+        </tr>
+        <tr>
+          <td><label for="dade">Idade:</label></td>
+          <td><select name="ops" id="ops">
+            <option>Menor que 19</option>
+            <option>Maior que 19</option>
+            </object>
+          </select></td>
+        </tr>
+        <tr>
+          <td><input type="image" name="img" id="img" src="https://images.unsplash.com/photo-1542831371-29b0f74f9713?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" alt="Imagem não disponivel mas..." style="width: 100px; height: 100px"/></td>
+        </tr>
+        <tr>
+          <td><input type="reset" name="rest" id="rest" /></td>
+          <td><input type="submit" name="carrego" id="carrego" /></td>
+        </tr>
+      </table>
+    </form>
+    
+  </body>
+</html>
