@@ -1,0 +1,25 @@
+table {
+  text-align: center;
+}
+.left {
+  text-align: left;
+}
+.rotulo {
+  color: #d95959;
+  font-size: 30px;
+  font-family: Courier New, Monospace;
+}
+.entrada {
+  background-color: #e5b6b6;
+  border-radius: 5px;
+  height: 20px;
+  width: 280px;
+}
+.botao {
+  color: white;
+  background-color: #3ebe40;
+  border-radius: 20px;
+  border-color: #d5c39b;
+  height: 30px;
+  width: 280px;
+}
