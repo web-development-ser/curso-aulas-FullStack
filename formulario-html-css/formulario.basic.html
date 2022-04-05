@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário Estilizado</title>
+    <style>
+        
+        /*seletor por elemento*/
+        div{
+            width: 50%;
+            height: 300px;
+            background-color:bisque;
+            margin: 10px;
+            padding: 10px;
+            border: 1px solid black;
+            margin: 0 auto;
+        }
+        /*seletor por elemento*/
+        label {
+            color:cadetblue;
+            font-size: 20px;
+            text-align: center;
+            
+        }
+        /*seletores agrupados */
+        input[type=email], input[type=password] {
+            width: 100%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            display: inline-block;
+            border: 1px solid #ccc;
+            box-sizing: border-box;
+        }
+        /*Cassiano-dio*/
+        /*seletor por atributo*/
+        input[type=submit] {
+            background-color: #04AA6D;
+            border: none;
+            color: white;
+            padding: 16px 32px;
+            text-decoration: none;
+            margin: 4px 2px;
+            cursor: pointer;
+        } 
+        form {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <form action="">
+
+            <label for="Email">Email</label>
+
+            <input type="email" name="Email" id="Email">
+
+            <label for="senha">Senha</label>
+
+            <input type="password" name="senha" id="senha">
+
+            <input type="submit" value="Enviar">
+        </form>
+    </div>
+</body>
+</html>
