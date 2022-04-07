@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>HTML</title>
+  
+  <!-- HTML -->
+  
+
+  <!-- Custom Styles -->
+  <style type="text/css" media="all">
+
+h1 {
+  background-color: #5FD64F;
+  padding: 10px;
+}
+
+
+.lista ul {
+  margin: 0;
+  padding: 0;
+}
+.lista li {
+  background-color: #6FF2D4;
+  padding: 10px 0;
+  text-align: center;
+}
+.play {
+  width: 33.33%;
+}
+
+.texto-centro {
+  background-color: #946FF2;
+  padding: 10px 0;
+  text-align: center;
+}
+
+.texto-fim {
+  background-color: #6FF2C2;
+  padding: 10px 0;
+  text-align: center;
+}
+
+@media only screen and (max-width: 768px) {
+  .play {
+    width: 100%;
+  }
+}
+
+.play {
+  float: left;
+}
+
+.plis {
+  background-color: #F16FF2;
+  padding: 10px 0;
+  clear: both;
+  margin-top: 100px;
+  border: solid 2px red;
+}
+
+.flex {
+  display: flex;
+}
+  </style>
+</head>
+
+<body>
+  
+  <div>
+    <h1>QUERY</h1>
+  </div>
+  
+  <div class="flex">
+  <div class="lista play">
+    <ul>
+      <li>ITEM 1</li>
+      <li>ITEM 2</li>
+      <li>ITEM 3</li>
+    </ul>
+  </div>
+  
+  <div class="texto-centro play">
+    <h2>TEXTO CENTRO</h2>
+  </div>
+  
+  <div class="texto-fim play">
+    <h2>TEXTO</h2>
+    <p>HELLO</p>
+  </div>
+  
+  </div>
+  
+  <div class="plis">
+    Texto Hello
+  </div>
+  
+  <script src="main.js"></script>
+</body>
+</html>
